@@ -1,0 +1,93 @@
+p1^p2_p3
+/A:a1
+/B:b1
+/C:c1
+/D:d1!d2#d3
+/E:e1]e2^e3=e4~e5!e6@e7#e8+e9]e10$e11|e12[e13&e14]e15=e16^e17~e18#e19@e20!e21$e22&e23%e24[e25|e26
+/F:f1@f2#f3
+/G:g1_g2=g3
+/H:h1_h2=h3
+/I:i1_i2=i3
+/J:j1$j2%j3|j4&j5[j6_j7
+
+
+
+
+
+phoneme level:
+
+p1 last phoneme
+p2 current phoneme
+p3 next phoneme
+
+character level：
+
+a1 tone of the last character 
+
+b1 tone of the current character
+
+c1 tone of the next character
+
+d1  absolute pitch(MIDI Note) of the last character
+d2  relative pitch(0-11) of the last character
+d3  length(in 32th note) of the last character 
+
+e1  absolute pitch(MIDI Note) of current character
+e2  relative pitch(0-11) of current character
+e3  length(in 32th note) of current character 
+
+f1  absolute pitch(MIDI Note) of the next character
+f2  relative pitch(0-11) of the next character
+f3  length(in 32th note) of the next character 
+
+e4 position(32th note) of the current character/note in bar from the beginning 
+e5 position(32th note) of the current character/note in bar from the end
+e6 position(%) of the current character/note in bar from the beginning 
+e7 position(%) of the current character/note in bar from the end
+
+
+
+e8 这一个字是乐句从头数第几个字(字包含sp)
+e9 这一个字是乐句从尾数第几个字
+e10 这一个字是乐句从头数第几个1/32音符
+e11 这一个字是乐句从尾数第几个1/32音符
+e12 这一个字是乐句从头数第几个0.1s
+e13 这一个字是乐句从尾数第几个0.1s
+e14 这一个字是乐句从头数第几个%
+e15 这一个字是乐句从尾数第几个%
+
+(对sp|sil字为xx)
+e16 这一个字是sp间从头数第几个字
+e17 这一个字是sp间从尾数第几个字
+e18 这一个字是sp间从头数第几个1/32音符
+e19 这一个字是sp间从尾数第几个1/32音符
+e20 这一个字是sp间从头数第几个0.1s
+e21 这一个字是sp间从尾数第几个0.1s
+e22 这一个字是sp间从头数第几个%
+e23 这一个字是sp间从尾数第几个%
+
+e24 这一个字是否为连音(xx当sp|sil)
+e25 这一个字与上一个字的音高差多少个半音(这个-上个)(xx当sp|sil或sp之后)
+e26 这一个字与下一个字的音高差多少个半音(下个-这个)(xx当sp|sil或sp之前)
+
+乐句层：
+g1 前一个乐句音素数(不含sp|sil)(xx当首乐句)
+g2 前一个乐句字数(不含sp|sil)(xx当首乐句)
+g3 前一个乐句时长(几个三十二分音符)(xx当首乐句)
+
+h1 这一个乐句音素数(不含sp|sil)(xx当该乐句为空)
+h2 这一个乐句字数(不含sp|sil)(xx当该乐句为空)
+h3 这一个乐句时长(几个三十二分音符)(xx当该乐句为空)
+
+i1 后一个乐句音素数(不含sp|sil)(xx当末乐句)
+i2 后一个乐句字数(不含sp|sil)(xx当末乐句)
+i3 后一个乐句时长(几个三十二分音符)(xx当末乐句)
+
+歌曲层：
+j1 总音素数(不含sp|sil)
+j2 总字数(不含sp|sil)
+j3 总时长(几个三十二分音符)
+j4 总乐句数(不包含空乐句)
+j5 速度(指一个四分音符的速度)
+j6 调号(-7~7)
+j7 拍号(6-8, 3-4)
