@@ -13,6 +13,7 @@ Labels:  labels/full contains HTS-format labels, please see the [description fil
 
 ## Cite McHuo Dataset
 
+```
 @ARTICLE{7451107,
   author={Li, Xian and Wang, Zengfu},
   journal={IEEE/CAA Journal of Automatica Sinica}, 
@@ -22,3 +23,4 @@ Labels:  labels/full contains HTS-format labels, please see the [description fil
   number={2},
   pages={192-202},
   doi={10.1109/JAS.2016.7451107}}
+```
