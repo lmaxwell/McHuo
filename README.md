@@ -2,9 +2,12 @@
 
 McHuo is a chinese singing voice dataset used in the paper "A HMM-based mandarin chinese singing voice synthesis system".
 
-Wave file: 48KHz, 16 bit, stereo [download](https://drive.google.com/file/d/1fDQ6hgdP3wfosKHbdARAIfzTFY74UoJw/view?usp=share_link)
+- Singer: Professional male singer, 25 years old
+- Number of songs: 105
+- Total duration: 132 minutes
 
-Labels:  labels/full contains HTS-format labels, please see the [description file](/label_description.txt)
+- Wave file: 48KHz, 16 bit, stereo [download](https://drive.google.com/file/d/1fDQ6hgdP3wfosKHbdARAIfzTFY74UoJw/view?usp=share_link)
+- Labels:  labels/full contains HTS-format labels, please see the [description file](/label_description.txt)
 
 
 
