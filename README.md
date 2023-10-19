@@ -11,10 +11,14 @@ McHuo is a chinese singing voice dataset used in the paper "A HMM-based mandarin
 
 
 
+## Licence
 
+McHuo is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0)
 
 
 ## Cite McHuo Dataset
+
+If you use McHuo in your research, please cite our paper.
 
 ```
 @ARTICLE{7451107,
